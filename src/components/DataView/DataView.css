@@ -1,0 +1,30 @@
+.upload-button-container {
+    position: absolute;
+    top: 7px; 
+    right: 20px; 
+  }
+  
+  .upload-button {
+    padding: 8px 16px;
+    background: #6346B4;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+    transform: translateY(-50%);
+    margin-left: auto;
+  }
+  
+  .upload-button:hover {
+    background: #A88EF0;
+  }
+  
+  .upload-button:active {
+    background: #311F63;
+  }
+  
